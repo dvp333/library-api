@@ -2,9 +2,9 @@ const express = require('express')
 const graphqlHTTP = require('express-graphql')
 const schema = require('./schema/schema')
 const mongoose = require('mongoose')
+const {dbUrl} = require('./config')
 
-const uri = "mongodb+srv://semana.semana@cluster0-eo6e4.mongodb.net/test?retryWrites=true&w=majority";
-mongoose.connect(uri);
+mongoose.connect(dbUrl);
 mongoose.connection.once('open', () => {
   console.log('connected to database')
 })
