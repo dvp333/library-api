@@ -1,7 +1,7 @@
 {
-  "name": "books-api",
+  "name": "library-api",
   "version": "1.0.0",
-  "description": "GraphQl server with Nde.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dode.js and Express",
+  "description": "A sample GraphQL API with Node.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dode.js and Express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
