@@ -23,3 +23,9 @@ DB_URL=mongodb://[host]:[port]/[db-name]
 
 * Run 
     <p><code>node app</code></p>
+
+## GraphQL Playground
+
+You can test the API and see the automatic generated docs in the GraphiQL UI using the URI below.
+
+`http://localhost:4000/graphql`
